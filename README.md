@@ -32,14 +32,14 @@ Automatically deploy servers and Optimize the shadowsocks server on Linux.
 ### Download
 
 ```bash
-# wget https://raw.githubusercontent.com/Vndroid/shadowsocks-install/master/shadowsocks.sh
-# chmod +x shadowsocks.sh
+wget https://raw.githubusercontent.com/Vndroid/shadowsocks-install/master/shadowsocks.sh
+chmod +x shadowsocks.sh
 ```
 
 ### Install
 
 ```bash
-# ./shadowsocks.sh install 2>&1 | tee shadowsocks.log
+./shadowsocks.sh install 2>&1 | tee shadowsocks.log
 ```
 
 > Notice: Must be as root user run this command.
